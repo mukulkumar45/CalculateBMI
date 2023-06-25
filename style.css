@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@200&family=Raleway:wght@100&family=Roboto:wght@300&family=Ysabeau+Office&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Ysabeau Office;
+}
+.navbar{
+  height: 55px;
+  background-color: #5d5d5d;
+  display: flex;
+}
+.nav-name{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.heading{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.box{
+  width: 650px;
+  height: 550px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+  margin-top: 20px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.in-box{
+  width: 250px;
+  height: 50px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+h4{
+  margin-top: -30px;
+}
+.display{
+  width: 200px;
+  height: 70px;
+  margin-top: -20px;
+}
+.in-input{
+  width: 400px;
+  height: 100px;
+
+  
+}
+.input{
+  margin-top: 10px;
+  line-height: 40px;
+  font-size: 20px;
+}
+.input input{
+  margin-left: 60px;
+  line-height: 20px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  
+}
+.input label{
+  margin-left: 20px;
+}
+#one{
+  margin-left: 61px;
+}
+#two{
+  margin-left: 58px;
+}
+.butt{
+  width: 400px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+span{
+  color: rgb(185, 9, 234);
+} 
+.display{
+  text-align: center;
+}
+.input ::placeholder{
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+button{
+  width: 100px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(182, 254, 230);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 15px;
+}
+button:hover{
+  background-color: rgb(32, 249, 177);
+}
+.info a{
+  text-decoration: none;
+  color: rgb(81, 0, 255);
+}
+
